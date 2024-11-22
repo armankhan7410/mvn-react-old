@@ -5,7 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Amenities() {
-  const [sectionRendered, setSectionRendered] = useState(false);
+  const [sectionRendered,setSectionRendered] = useState(false);
   const sectionsRef = useRef([]);
 
   useEffect(() => {
